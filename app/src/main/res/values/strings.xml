@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RECICLA SANJA</string>
+    <string name="email">E-mail</string>
+    <string name="senha">senha</string>
+    <string name="esqueceu_renovar_senha">Esqueceu / Renovar senha</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="cadastre_se">CADASTRE-SE</string>
+    <string name="login1">LOGIN</string>
+    <string name="entrar">Entrar</string>
+</resources>

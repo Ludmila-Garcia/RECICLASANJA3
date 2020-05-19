@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".TelaLogin"
+    android:background="@drawable/papelao"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_margin="55dp"
+        android:fontFamily="cursive"
+        android:text="Recicla\nSanja"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#F2F1F3"
+        android:textSize="90sp"
+        app:fontFamily="@font/akronim" />
+
+        <Button
+            android:id="@+id/login_btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/login_btn_cadastrar"
+            android:background="@drawable/buttonshape"
+            android:layout_gravity="center"
+            android:shadowColor="#FFFFFF"
+            android:text="@string/login"
+            android:textColor="#10A132"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/login_btn_cadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:text="@string/cadastrar"
+            android:textColor="#10A132"
+            android:textSize="20dp"
+            android:typeface="normal"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/login_btn_cadastrar"-->
+        <!--android:layout_width="278dp"-->
+        <!--android:layout_height="47dp"-->
+        <!--android:layout_marginStart="66dp"-->
+        <!--android:layout_marginLeft="66dp"-->
+        <!--android:layout_marginTop="41dp"-->
+        <!--android:layout_marginEnd="67dp"-->
+        <!--android:layout_marginRight="67dp"-->
+        <!--android:layout_marginBottom="106dp"-->
+        <!--android:background="@drawable/buttonshape"-->
+        <!--android:shadowColor="#FFFFFF"-->
+        <!--android:shadowDx="0"-->
+        <!--android:shadowDy="0"-->
+        <!--android:shadowRadius="5"-->
+        <!--android:text="CADASTRE-SE"-->
+        <!--android:textColor="#10A132"-->
+        <!--android:textSize="32sp"-->
+        <!--android:typeface="normal"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/login_btn_login" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="55dp"-->
+        <!--android:layout_marginLeft="55dp"-->
+        <!--android:layout_marginTop="59dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:fontFamily="cursive"-->
+        <!--android:text="Recicla"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+        <!--android:textColor="#F2F1F3"-->
+        <!--android:textSize="90sp" />-->
+    <!--app:fontFamily="@font/akronim"-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/textView2"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:layout_constraintVertical_bias="0.0"-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="174dp"-->
+        <!--android:layout_marginLeft="174dp"-->
+        <!--android:layout_marginEnd="18dp"-->
+        <!--android:layout_marginRight="18dp"-->
+        <!--android:layout_marginBottom="225dp"-->
+        <!--android:text="Sanja"-->
+        <!--android:textColor="#F4F8FC"-->
+        <!--android:textSize="90sp"-->
+        <!--app:fontFamily="@font/akronim" />-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/login_btn_login"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="1.0"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/textView"-->
+
+</LinearLayout>

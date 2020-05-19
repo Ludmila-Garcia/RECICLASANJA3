@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="login_btn_login" type="id" />
+    <item name="login_btn_cadastrar" type="id"/>
+    <item name="button1" type="id"/>
+</resources>
